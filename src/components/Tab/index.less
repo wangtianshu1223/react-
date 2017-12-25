@@ -1,0 +1,27 @@
+.tab-nav {
+    height: 48px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background: #fff;
+    z-index: 10;
+    display: flex;
+    border-top: 1px solid #f0f0f0;
+    z-index: 10;
+    a {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #333;
+        font-size: 0.28rem;
+        span {
+            font-weight: bolder;
+            font-size: 0.40rem;
+        }
+        &.active {
+            color: deeppink;;
+        }
+    }
+}
